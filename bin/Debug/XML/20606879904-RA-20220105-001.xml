@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VoidedDocuments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1">
+	<ext:UBLExtensions>
+		<ext:UBLExtension> <ext:ExtensionContent><ds:Signature Id="SignSUNAT"><SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gyooCQ8RfGI6+UWHQFdSo2AFehQ=</DigestValue></Reference></SignedInfo><SignatureValue xmlns="http://www.w3.org/2000/09/xmldsig#">CnPGweQGGhx7jv0zG3+EocCux2gznCHJUnNu9Um2500g+gkSJOoENCx8cYmUSMDIU443oERT/ISk4T/eHJOpsJrC+SY0WG0jpZeE2AtkKNNESZIDANF817Q4WmLE24iy5tUpnXyAasIlSFtLL3dZp2nXgNJRuOTnDXP50wY1SYTAyGORRrzZcng3E9+6ygfQqV2OTuIkyAqjoOzw+rchld28PjEnFEh7Nv75XwsCX0FssR71pNeafCx0hs+u1Fq7mexL9A+xR7bDn8QdsfeeUuCQZwKIR8ViY1n/6uFiTTEGHapPB9xkckuEjjUP1PiMNn5r1SWX4PgzvO97JPVCKQ==</SignatureValue><KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#"><X509Data><X509SubjectName>E=demo@llama.pe, CN=NOMBRE REPRESENTANTE LEGAL - CERTIFICADO PARA DEMOSTRACIÓN, OU=DNI 9999999 RUC 20606879904 - CERTIFICADO PARA DEMOSTRACIÓN, O=TU EMPRESA S.A., L=LIMA, S=LIMA, C=PE, DC=LLAMA.PE SA</X509SubjectName><X509Certificate>MIIE+DCCA+CgAwIBAgIJAMhLuLGT08cFMA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMjA2MDY4Nzk5MDQgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDcyODE1MzgwNloXDTIzMDcyODE1MzgwNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDYwNjg3OTkwNCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCWUv/mpSgnQCFTA4cTvxVSvWk1JtBMoRyE9aQhLiJW20Brp7LAhKXpG0mRDo2v5ET4KvVIOvNpzeC8AWhoHXGKv2sx95IFYWpyawsz1hhmmDgy8iwLrt1vhSsytRIno+ewUNSIgvq9EVef2fShsi5r5kEZj2b3b0ROKEDnEr5xJPzF2cNmy0UapQsPq7SWFiD25f1RC/rmFmiIg12K69/WR0ttW7ARYOU4eXcHhXEolWbhnW7NXVRp1VSpnY8pAlRDQN8o6JRE0HK12JgzIAYFlSh62P0GGaI4DEHmPD+v23vWaKNFgTarnKIkW+D0AwhEMFQHejnrPDJfomGFxnMPAgMBAAGjVzBVMB0GA1UdDgQWBBSX2GmA7WKKcoVnVrNQh/x9kxtmvDAfBgNVHSMEGDAWgBSX2GmA7WKKcoVnVrNQh/x9kxtmvDATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAYVDhmC34OFrg1jHYhnLxu0WcV6yBhvsq0crHMZnvH4AzXtr00N9f+IWcc/ldqekJEM++Lomq6qBw0sGwOhlxLGHulhKfvU0NALPplSZdT3VK/bB6FgQGxfEtR5zpJ/3w7P+Q82RuV1hIbvOPDOH/RU1+X3QU3JRBxWYHZV9H8kpBBZ/Azcal9Qtgv74cCMY0F7m2VciN5jzQ9nqYJDcUjx5LT7x6607E6U0pTWjCA+LWrAjvbMEXOLg1oQTUALIMv4W2ScKdWRXxxmj/ihm39o+5JfrZ5HzhVDalHlWrjkCorTRpWzdGvB05rq5TVvjRooPAonL8wfDCNIibtPnLzw==</X509Certificate></X509Data></KeyInfo></ds:Signature></ext:ExtensionContent></ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+	<cbc:CustomizationID>1.0</cbc:CustomizationID>
+	<cbc:ID>RA-20220105-001</cbc:ID>
+	<cbc:ReferenceDate>2022-01-05</cbc:ReferenceDate>
+	<cbc:IssueDate>2022-01-05</cbc:IssueDate>
+	<cac:Signature>
+		<cbc:ID>20606879904</cbc:ID>
+		<cbc:Note>Elaborado por codigo 369</cbc:Note>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20606879904</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name>NOMBRE DE TU EMPRESA</cbc:Name>
+			</cac:PartyName>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>SIGN</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cbc:CustomerAssignedAccountID>20606879904</cbc:CustomerAssignedAccountID>
+		<cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+		<cac:Party>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName>NOMBRE DE TU EMPRESA</cbc:RegistrationName>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<sac:VoidedDocumentsLine>
+		<cbc:LineID>1</cbc:LineID>
+		<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		<sac:DocumentSerialID>B001</sac:DocumentSerialID>
+		<sac:DocumentNumberID>00000001</sac:DocumentNumberID>
+		<sac:VoidReasonDescription>error</sac:VoidReasonDescription>
+	</sac:VoidedDocumentsLine>
+</VoidedDocuments>
